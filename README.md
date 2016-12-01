@@ -6,7 +6,7 @@
 
 1. gem은 최소한으로 썼는데, rack은 설치해야 해요.
 
-'''$> gem install rack
+```$> gem install rack```
 
 2. data 폴더에 players.csv라는 이름으로 파일 미리 만들어두세요. 안 그러면 실행 안 될 수 있음. (서버 붙이면서, 파라미터 받는 게 문제가 좀 생겨서 고정시켰어요.)
 
@@ -20,7 +20,7 @@ http://localhost:9292
 
 2. 시뮬레이션을 돌리려면, 서버와는 상관없고, 
 
-'''$> ruby run.rb
+```$> ruby run.rb```
 
 입력하면 log 폴더에 결과 생성돼요.
 
